@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T20:44:58 IST" name="ParallelExecutionSuite" finished-at="2025-04-14T20:45:30 IST" duration-ms="31748">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T20:44:58 IST" name="TestRunner2" finished-at="2025-04-14T20:45:07 IST" duration-ms="8331">
+      <class name="TestPackage.launchFlipkart">
+        <test-method signature="m3()[pri:0, instance:TestPackage.launchFlipkart@42e99e4a]" started-at="2025-04-14T20:44:58 IST" name="m3" finished-at="2025-04-14T20:45:07 IST" duration-ms="8207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- TestPackage.launchFlipkart -->
+    </test> <!-- TestRunner2 -->
+    <test started-at="2025-04-14T20:44:58 IST" name="TestRunner1" finished-at="2025-04-14T20:45:30 IST" duration-ms="31748">
+      <class name="TestPackage.launchAmazon">
+        <test-method signature="m2()[pri:0, instance:TestPackage.launchAmazon@635eaaf1]" started-at="2025-04-14T20:44:58 IST" name="m2" finished-at="2025-04-14T20:45:30 IST" duration-ms="31637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- TestPackage.launchAmazon -->
+    </test> <!-- TestRunner1 -->
+  </suite> <!-- ParallelExecutionSuite -->
+</testng-results>
